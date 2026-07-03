@@ -1,6 +1,6 @@
-# 🍽️ Restaurant Growth Potential Modeling & Strategic Classification System
+#  Restaurant Growth Potential Modeling & Strategic Classification System
 
-## 📌 Project Overview
+##  Project Overview
 
 This project builds a data-driven restaurant intelligence system that identifies restaurants with strong potential for sustainable growth.
 
@@ -17,7 +17,7 @@ The project uses machine learning and clustering techniques to classify restaura
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Restaurant businesses often use a one-size-fits-all strategy for expansion decisions.
 
@@ -34,7 +34,7 @@ This project aims to answer:
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 Dataset contains **1696 restaurant records** and **30 features**.
 
@@ -81,7 +81,7 @@ Features include:
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 ### 1. Data Preprocessing
 
@@ -150,7 +150,7 @@ GPI =
 
 ---
 
-## 📈 Strategic Recommendations
+##  Strategic Recommendations
 
 Restaurants receive recommendations such as:
 
@@ -160,29 +160,29 @@ Restaurants receive recommendations such as:
 
 ---
 
-# 🖥️ Streamlit Dashboard Features
+#  Streamlit Dashboard Features
 
 Dashboard includes:
 
-✅ Interactive filters
+ Interactive filters
 
 - Subregion
 - Segment
 
-✅ KPI cards
+ KPI cards
 
 - Total Restaurants
 - Average GPI
 - Average Orders
 - Expansion Ready Count
 
-✅ Visualizations
+ Visualizations
 
 - Cluster distribution
 - Growth potential distribution
 - Top restaurants table
 
-✅ New restaurant prediction module
+ New restaurant prediction module
 
 Users can input:
 
@@ -198,7 +198,7 @@ The system predicts:
 
 ---
 
-# 📷 Dashboard Screenshots
+#  Dashboard Screenshots
 
 ## Main Dashboard
 
@@ -289,6 +289,6 @@ Key findings:
 
 # Author
 
-Adarsh Dev
+Vishesh Sharma
 
 Data Science Intern Project
