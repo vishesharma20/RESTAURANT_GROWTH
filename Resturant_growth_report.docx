@@ -1,0 +1,164 @@
+Restaurant Growth Potential Modeling & Strategic Classification System
+1. Introduction
+
+The restaurant industry operates in a highly competitive environment where business growth depends on multiple factors such as customer demand, delivery strategy, operational efficiency, and profitability. Traditional methods often focus only on current performance metrics without considering long-term scalability.
+
+The objective of this project is to identify restaurants that are structurally positioned for sustainable growth using machine learning and data analytics techniques.
+
+The project aims to:
+
+Identify restaurant archetypes using clustering
+Develop a Growth Potential Index (GPI)
+Generate strategic recommendations
+Build an interactive Streamlit dashboard
+2. Dataset Description
+
+The dataset contains operational and financial information for restaurants.
+
+Dataset characteristics:
+
+Number of records: 1696
+Number of features: 30
+
+Feature categories:
+
+Growth & Demand:
+
+GrowthFactor
+MonthlyOrders
+AOV
+
+Channel Mix:
+
+InStoreShare
+UE_share
+DD_share
+SD_share
+
+Cost & Efficiency:
+
+COGSRate
+OPEXRate
+CommissionRate
+
+Logistics:
+
+DeliveryRadiusKM
+DeliveryCostPerOrder
+
+Business Identity:
+
+CuisineType
+Segment
+Subregion
+3. Exploratory Data Analysis (EDA)
+Monthly Orders Distribution
+
+Most restaurants had monthly orders ranging between 700–1700, indicating relatively stable demand patterns.
+
+Growth Factor Analysis
+
+The majority of restaurants demonstrated positive month over month growth.
+
+Segment Analysis
+
+Full-service restaurants showed the highest order volume, while Ghost Kitchens showed lower average order counts.
+
+Cuisine Analysis
+
+Pizza and Burger categories exhibited stronger customer demand compared to other cuisine categories.
+
+Correlation Analysis
+
+Strong positive relationships were observed between:
+
+Orders and Revenue
+Revenue and Profit
+Self-delivery orders and self-delivery revenue
+
+Negative relationships were observed between:
+
+Operating costs and profitability
+4. Methodology
+Data Preprocessing
+
+The following preprocessing techniques were applied:
+
+Removal of irrelevant columns
+Encoding categorical variables
+Standardization of numerical variables
+PCA
+
+Principal Component Analysis (PCA) was applied for dimensionality reduction and visualization.
+
+Clustering
+
+K-Means clustering with K=4 was selected using the Elbow Method.
+
+Growth Potential Index (GPI)
+
+The GPI was calculated using:
+
+Growth metrics
+Profitability indicators
+Delivery efficiency
+Channel balance
+5. Results
+
+Four restaurant groups were identified:
+
+High Growth Aggregator Driven
+
+Characteristics:
+
+High order volume
+Strong platform dependence
+
+Recommendation:
+
+Reduce dependency on third-party aggregators
+Stable Local Performer
+
+Characteristics:
+
+Stable operations
+Moderate growth
+
+Recommendation:
+
+Increase customer acquisition strategies
+High Revenue Low Margin Risk
+
+Characteristics:
+
+Strong revenue
+Lower profitability
+
+Recommendation:
+
+Improve operational cost management
+Scalable Self Delivery Leader
+
+Characteristics:
+
+High self-delivery profitability
+Better scalability
+
+Recommendation:
+
+Expand delivery radius
+6. Strategic Recommendation Distribution
+
+Recommendation output:
+
+Stabilize: 1086 restaurants
+Optimize: 568 restaurants
+Expand: 42 restaurants
+
+Interpretation:
+
+Most restaurants require operational strengthening before expansion, while only a small percentage are immediately ready for scaling.
+
+7. Conclusion
+
+This project successfully developed a restaurant growth intelligence system using machine learning and strategic analytics. The combination of clustering and Growth Potential Index scoring enabled restaurants to be classified into meaningful categories and provided actionable recommendations for business decision-making.
